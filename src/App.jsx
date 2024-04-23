@@ -7,7 +7,10 @@ import { TrafficLight } from './assets/components/TrafficLight.jsx';
 function App() {
   return (
     <>
+    <div className="flex items-center justify-center">
       <TrafficLight />
+    </div>
+      
     </>
   );
 }

@@ -38,7 +38,7 @@ export const TrafficLight = () => {
   }, []);
   return (
     <>
-      <div className="box-light">
+      <div className="bg-black w-32 h-80 mx-auto flex flex-col items-center justify-center rounded-xl p-8 gap-8">
         <Light color="red" active={currentLight === 'red'} />
         <Light color="yellow" active={currentLight === 'yellow'} />
         <Light color="green" active={currentLight === 'green'} />
